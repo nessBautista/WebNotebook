@@ -10,6 +10,9 @@
     "build:local": "webpack --env.NODE_ENV=local",
     "build:prod": "webpack -p --env.NODE_ENV=production"
   },
+  "keywords": [
+    "react"
+  ],
   "author": "NessBautista",
   "license": "MIT",
   "devDependencies": {
@@ -26,5 +29,10 @@
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   }
 }
